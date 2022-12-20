@@ -5,7 +5,7 @@ import MainComponent from "./components/MainComponent";
 
 function App() {
   return (
-    <div className="flex">
+    <div className="flex bg-[#363940] h-screen">
       {/* Friends + Groups */}
       <Groups />
       {/* Discover */}
@@ -14,7 +14,6 @@ function App() {
       <MainComponent />
       {/* Hero */}
       {/* Featured */}
-      <div className="w-full h-screen bg-[#363940]"></div>
     </div>
   );
 }
