@@ -4,7 +4,7 @@ import { FiSearch } from "react-icons/fi";
 
 const Hero = () => {
   return (
-    <div className="relative h-[17rem] mx-8 mt-6   rounded-[.3rem]">
+    <div className="relative h-[17rem] mx-8 mt-6   rounded-[.3rem] z-10">
       {/* Background Image */}
       <div className="absolute flex w-full">
         <img
@@ -13,8 +13,11 @@ const Hero = () => {
           alt="hero"
         />
       </div>
+      {/* Overlay */}
+      <div className="absolute flex w-full h-full bg-black/20 z-10">
+      </div>
       {/* Search Box */}
-      <div className="relative z-10 flex flex-col items-center justify-end h-full font-bold text-white pb-0">
+      <div className="relative z-20 flex flex-col items-center justify-end h-full font-bold text-white pb-0">
         <p className="text-[22px] font-black">Find your community on Discord</p>
         <p className="pb-2 text-[15px]">
           From gaming, to music, to study, there's a place for you.{" "}
