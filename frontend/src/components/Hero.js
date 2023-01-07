@@ -4,21 +4,21 @@ import { FiSearch } from "react-icons/fi";
 
 const Hero = () => {
   return (
-    <div className="relative h-[15rem] mx-8 mt-6   rounded-[.3rem] z-10">
+    <div className="relative h-[13rem] mx-5 mt-6 rounded-[.3rem] z-10">
       {/* Background Image */}
       <div className="absolute flex w-full">
         <img
           src={hero}
-          className="object-cover w-full rounded-[.3rem] h-[15rem]"
+          className="object-cover w-full rounded-[.3rem] h-[13rem]"
           alt="hero"
         />
       </div>
       {/* Overlay */}
       <div className="absolute flex w-full h-full bg-black/23 z-10"></div>
       {/* Search Box */}
-      <div className="relative z-20 flex flex-col items-center justify-center h-full font-bold text-white pb-0">
-        <p className="text-[22px] font-black">Find your community on Discord</p>
-        <p className="pb-2 text-[15px]">
+      <div className="relative z-20 flex flex-col items-center justify-center h-full font-bold text-white pb-0 space-y-2">
+        <p className="text-[20px] font-black">Find your community on Discord</p>
+        <p className="pb-2 text-[14px]">
           From gaming, to music, to study, there's a place for you.{" "}
         </p>
         <div className="relative flex items-center mb-4">
