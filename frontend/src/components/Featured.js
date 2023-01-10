@@ -1,9 +1,42 @@
 import React from "react";
 import picture1 from "./assets/lmfao.jpg";
 import picture2 from "./assets/profile.png";
+import Card from "./Card";
 
 const Featured = () => {
   const cards = [
+    {
+      bg: picture1,
+      profile: picture2,
+      title: "Fire Emblem Heroes",
+      description:
+        "We are a community for Fire Emblem Heroes. Enjoy lore, get game help, and FE fandom",
+      size: "85,532 Online &#x2022; 232,061 Members",
+    },
+    {
+      bg: picture1,
+      profile: picture2,
+      title: "Fire Emblem Heroes",
+      description:
+        "We are a community for Fire Emblem Heroes. Enjoy lore, get game help, and FE fandom",
+      size: "85,532 Online &#x2022; 232,061 Members",
+    },
+    {
+      bg: picture1,
+      profile: picture2,
+      title: "Fire Emblem Heroes",
+      description:
+        "We are a community for Fire Emblem Heroes. Enjoy lore, get game help, and FE fandom",
+      size: "85,532 Online &#x2022; 232,061 Members",
+    },
+    {
+      bg: picture1,
+      profile: picture2,
+      title: "Fire Emblem Heroes",
+      description:
+        "We are a community for Fire Emblem Heroes. Enjoy lore, get game help, and FE fandom",
+      size: "85,532 Online &#x2022; 232,061 Members",
+    },
     {
       bg: picture1,
       profile: picture2,
@@ -23,6 +56,11 @@ const Featured = () => {
         </p>
       </div>
       {/* Cards */}
+      <div className="">
+        {cards.map((card) => (
+          <Card />
+        ))}
+      </div>
     </div>
   );
 };
