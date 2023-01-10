@@ -4,7 +4,7 @@ import { FiSearch } from "react-icons/fi";
 
 const Hero = () => {
   return (
-    <div className="relative h-[13rem] mx-5 mt-6 rounded-[.3rem] z-10">
+    <div className="relative h-[13rem] rounded-[.3rem] z-10">
       {/* Background Image */}
       <div className="absolute flex w-full">
         <img
