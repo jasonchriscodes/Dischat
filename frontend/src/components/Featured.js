@@ -49,14 +49,14 @@ const Featured = () => {
   return (
     <div className="pt-6">
       {/* Titles */}
-      <div className="text-white">
+      <div className="text-white pb-4">
         <p className="font-bold text-[20px]">Featured Servers</p>
         <p className="text-white/50">
           Some awesome Discords we think you'd love.
         </p>
       </div>
       {/* Cards */}
-      <div className="space-y-20">
+      <div className="space-y-20 mb-4">
         {cards.map((card) => (
           <Card
             bg={card.bg}
