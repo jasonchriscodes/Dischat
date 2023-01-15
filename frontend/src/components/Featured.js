@@ -1,6 +1,6 @@
 import React from "react";
-import picture1 from "./assets/lmfao.jpg";
-import picture2 from "./assets/profile.png";
+import picture1 from "./assets/background.webp";
+import picture2 from "./assets/lmfao.jpg";
 import Card from "./Card";
 
 const Featured = () => {
@@ -56,9 +56,15 @@ const Featured = () => {
         </p>
       </div>
       {/* Cards */}
-      <div className="">
+      <div className="space-y-20">
         {cards.map((card) => (
-          <Card />
+          <Card
+            bg={card.bg}
+            profile={card.profile}
+            title={card.title}
+            description={card.description}
+            size={card.size}
+          />
         ))}
       </div>
     </div>
