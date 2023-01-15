@@ -1,5 +1,5 @@
 import React from "react";
-import picture1 from "./assets/background.webp";
+import picture1 from "./assets/background2.jpg";
 import picture2 from "./assets/lmfao.jpg";
 import Card from "./Card";
 
