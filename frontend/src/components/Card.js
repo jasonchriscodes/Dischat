@@ -2,7 +2,7 @@ import React from "react";
 
 const Card = ({ size, description, title, profile, bg }) => {
   return (
-    <div className="w-1/2">
+    <div className="w-full">
       {/* Banner  */}
       <div className="h-40 flex w-full">
         <img

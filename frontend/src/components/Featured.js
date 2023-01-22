@@ -56,7 +56,7 @@ const Featured = () => {
         </p>
       </div>
       {/* Cards */}
-      <div className="space-y-20 mb-4">
+      <div className="grid grid-cols-1 gap-y-6 mb-4">
         {cards.map((card) => (
           <Card
             bg={card.bg}
