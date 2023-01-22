@@ -3,6 +3,7 @@ import img1 from "../components/assets/img1.png";
 import img2 from "../components/assets/img2.png";
 import img3 from "../components/assets/img3.png";
 import img4 from "../components/assets/img4.png";
+import { FiPlus } from "react-icons/fi";
 
 const Groups = () => {
   const groups = [img1, img2, img3, img4, img1];
@@ -19,6 +20,13 @@ const Groups = () => {
             />
           </div>
         ))}
+        <div className="bg-[#36393f] p-4 rounded-full">
+          <FiPlus
+            src={img4}
+            className=" w-6 h-6 rounded-full text-green-700"
+            alt="group-logo"
+          />
+        </div>
       </div>
     </div>
   );
