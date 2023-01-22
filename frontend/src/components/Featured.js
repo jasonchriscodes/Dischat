@@ -11,7 +11,7 @@ const Featured = () => {
       title: "Fire Emblem Heroes",
       description:
         "We are a community for Fire Emblem Heroes. Enjoy lore, get game help, and FE fandom",
-      size: "85,532 Online &#x2022; 232,061 Members",
+      size: <p>85,532 Online &#x2022; 232,061 Members</p>,
     },
     {
       bg: picture1,
@@ -19,7 +19,7 @@ const Featured = () => {
       title: "Fire Emblem Heroes",
       description:
         "We are a community for Fire Emblem Heroes. Enjoy lore, get game help, and FE fandom",
-      size: "85,532 Online &#x2022; 232,061 Members",
+      size: <p>85,532 Online &#x2022; 232,061 Members</p>,
     },
     {
       bg: picture1,
@@ -27,7 +27,7 @@ const Featured = () => {
       title: "Fire Emblem Heroes",
       description:
         "We are a community for Fire Emblem Heroes. Enjoy lore, get game help, and FE fandom",
-      size: "85,532 Online &#x2022; 232,061 Members",
+      size: <p>85,532 Online &#x2022; 232,061 Members</p>,
     },
     {
       bg: picture1,
@@ -35,7 +35,7 @@ const Featured = () => {
       title: "Fire Emblem Heroes",
       description:
         "We are a community for Fire Emblem Heroes. Enjoy lore, get game help, and FE fandom",
-      size: "85,532 Online &#x2022; 232,061 Members",
+      size: <p>85,532 Online &#x2022; 232,061 Members</p>,
     },
     {
       bg: picture1,
@@ -43,7 +43,7 @@ const Featured = () => {
       title: "Fire Emblem Heroes",
       description:
         "We are a community for Fire Emblem Heroes. Enjoy lore, get game help, and FE fandom",
-      size: "85,532 Online &#x2022; 232,061 Members",
+      size: <p>85,532 Online &#x2022; 232,061 Members</p>,
     },
   ];
   return (

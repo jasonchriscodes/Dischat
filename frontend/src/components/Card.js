@@ -11,7 +11,7 @@ const Card = ({ size, description, title, profile, bg }) => {
           alt="banner area"
         />
       </div>
-      <div className="bg-[#292B2F] relative h-[10rem] pl-[1rem] rounded-b-[0.8rem]">
+      <div className="bg-[#292B2F] relative h-[11.5rem] px-[1rem] rounded-b-[0.8rem]">
         {/* Profile Pic */}
         <div className="absolute -top-8 left-4 w-16 h-16 flex rounded-[1rem]">
           <img
@@ -21,11 +21,15 @@ const Card = ({ size, description, title, profile, bg }) => {
           />
         </div>
         {/* Title */}
-        <div className="text-white font-bold text-[19p7]">
-          <p className="pt-9">{title}</p>
-        </div>
+        <p className="text-white font-bold text-[17px] pt-9">{title}</p>
         {/* Description */}
+        <p className="text-gray-400 font-medium text-[15px] pt-1">
+          {description}
+        </p>
         {/* Size */}
+        <p className="text-gray-400 font-medium text-[13.5px] pt-2 pb-4">
+          {size}
+        </p>
       </div>
     </div>
   );
