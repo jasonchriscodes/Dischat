@@ -10,7 +10,7 @@ import { AiFillCompass } from "react-icons/ai";
 const Groups = () => {
   const groups = [img1, img2, img3, img4, img1];
   return (
-    <div className="hidden sm:flex bg-[#212226] w-[6rem] shrink-0 h-screen sticky pt-6">
+    <div className="hidden sm:flex bg-[#212226] w-[6rem] shrink-0 h-screen sticky top-0 pt-6">
       <div className="flex flex-col items-center w-full space-y-4">
         {/* Discord */}
         <div className="bg-[#36393f] p-1 rounded-[1.3rem]">
