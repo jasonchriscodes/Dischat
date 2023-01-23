@@ -27,7 +27,7 @@ const Discover = () => {
       {/* Title */}
       <p className="text-white font-bold text-[25px]">Discover</p>
       {/* Topics */}
-      <div className="mt-6">
+      <div className="mt-4 space-y-4">
         {topics.map((topic) => (
           <Topic title={topic.title} icon={topic.icon} />
         ))}
