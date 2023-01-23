@@ -2,6 +2,10 @@ import React from "react";
 import picture1 from "./assets/background2.jpg";
 import picture2 from "./assets/lmfao.jpg";
 import Card from "./Card";
+import bg1 from "../components/assets/bg01.jpg";
+import bg2 from "../components/assets/bg02.jpg";
+import bg3 from "../components/assets/bg03.jpg";
+import bg4 from "../components/assets/bg04.jpg";
 
 const Featured = () => {
   const cards = [
@@ -14,7 +18,31 @@ const Featured = () => {
       size: <p>85,532 Online &#x2022; 232,061 Members</p>,
     },
     {
-      bg: picture1,
+      bg: bg1,
+      profile: picture2,
+      title: "Fire Emblem Heroes",
+      description:
+        "We are a community for Fire Emblem Heroes. Enjoy lore, get game help, and FE fandom",
+      size: <p>85,532 Online &#x2022; 232,061 Members</p>,
+    },
+    {
+      bg: bg2,
+      profile: picture2,
+      title: "Fire Emblem Heroes",
+      description:
+        "We are a community for Fire Emblem Heroes. Enjoy lore, get game help, and FE fandom",
+      size: <p>85,532 Online &#x2022; 232,061 Members</p>,
+    },
+    {
+      bg: bg3,
+      profile: picture2,
+      title: "Fire Emblem Heroes",
+      description:
+        "We are a community for Fire Emblem Heroes. Enjoy lore, get game help, and FE fandom",
+      size: <p>85,532 Online &#x2022; 232,061 Members</p>,
+    },
+    {
+      bg: bg4,
       profile: picture2,
       title: "Fire Emblem Heroes",
       description:
@@ -30,7 +58,7 @@ const Featured = () => {
       size: <p>85,532 Online &#x2022; 232,061 Members</p>,
     },
     {
-      bg: picture1,
+      bg: bg1,
       profile: picture2,
       title: "Fire Emblem Heroes",
       description:
@@ -38,15 +66,7 @@ const Featured = () => {
       size: <p>85,532 Online &#x2022; 232,061 Members</p>,
     },
     {
-      bg: picture1,
-      profile: picture2,
-      title: "Fire Emblem Heroes",
-      description:
-        "We are a community for Fire Emblem Heroes. Enjoy lore, get game help, and FE fandom",
-      size: <p>85,532 Online &#x2022; 232,061 Members</p>,
-    },
-    {
-      bg: picture1,
+      bg: bg2,
       profile: picture2,
       title: "Fire Emblem Heroes",
       description:
