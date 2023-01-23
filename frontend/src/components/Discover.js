@@ -6,10 +6,13 @@ import {
   BsFillPlayCircleFill,
   BsFillEmojiSmileFill,
 } from "react-icons/bs";
-import { FaGraduationCap } from "react-icons/fa";
+import { FaGraduationCap, FaHeadphones } from "react-icons/fa";
 import { TbAtom } from "react-icons/tb";
 import { FiMonitor } from "react-icons/fi";
+import { MdKeyboardVoice } from "react-icons/md";
+import { IoMdSettings } from "react-icons/io";
 import Topic from "./Topic";
+import lmfao from "./assets/lmfao.jpg";
 
 const Discover = () => {
   const topics = [
@@ -23,17 +26,32 @@ const Discover = () => {
     { title: "Movies & TV", icon: <FiMonitor /> },
   ];
   return (
-    <div className="hidden xl:flex flex-col bg-[#303136] w-[18rem] shrink-0 p-4 h-screen sticky top-0">
-      {/* Title */}
-      <p className="text-white font-bold text-[24px]">Discover</p>
-      {/* Topics */}
-      <div className="mt-4 space-y-4">
-        {topics.map((topic) => (
-          <Topic title={topic.title} icon={topic.icon} />
-        ))}
+    <div className="hidden xl:flex flex-col justify-between bg-[#303136] w-[18rem] shrink-0 h-screen sticky top-0">
+      <div className="p-4">
+        {/* Title */}
+        <p className="text-white font-bold text-[24px]">Discover</p>
+        {/* Topics */}
+        <div className="mt-4 space-y-4">
+          {topics.map((topic) => (
+            <Topic title={topic.title} icon={topic.icon} />
+          ))}
+        </div>
       </div>
       {/* ProfileSettings */}
-      <div className=""></div>
+      <div className="bg-[#292b2f] h-[5rem] flex text-white/80 items-center px-4 justify-between">
+        <div className="flex items-center">
+          <img className="w-12 h-12 rounded-full" src={lmfao} alt="" />
+          <div className="pl-2">
+            <p>Wumpus</p>
+            <p className="text-[14px] text-gray-400">#12345</p>
+          </div>
+        </div>
+        <div className="flex space-x-3 text-[20px]">
+          <MdKeyboardVoice />
+          <FaHeadphones />
+          <IoMdSettings className="" />
+        </div>
+      </div>
     </div>
   );
 };
