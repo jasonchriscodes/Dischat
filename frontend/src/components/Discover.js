@@ -23,7 +23,7 @@ const Discover = () => {
     { title: "Movies & TV", icon: <FiMonitor /> },
   ];
   return (
-    <div className="hidden xl:flex flex-col bg-[#303136] w-[18rem] shrink-0 p-4 ">
+    <div className="hidden xl:flex flex-col bg-[#303136] w-[18rem] shrink-0 p-4 h-screen sticky top-0">
       {/* Title */}
       <p className="text-white font-bold text-[24px]">Discover</p>
       {/* Topics */}
