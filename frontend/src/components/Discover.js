@@ -23,9 +23,9 @@ const Discover = () => {
     { title: "Movies & TV", icon: <FiMonitor /> },
   ];
   return (
-    <div className="text-white hidden xl:flex flex-col bg-[#303136] w-[18rem] shrink-0 p-4">
+    <div className="hidden xl:flex flex-col bg-[#303136] w-[18rem] shrink-0 p-4 ">
       {/* Title */}
-      <p className="text-white font-bold text-[25px]">Discover</p>
+      <p className="text-white font-bold text-[24px]">Discover</p>
       {/* Topics */}
       <div className="mt-4 space-y-4">
         {topics.map((topic) => (
@@ -33,6 +33,7 @@ const Discover = () => {
         ))}
       </div>
       {/* ProfileSettings */}
+      <div className=""></div>
     </div>
   );
 };
