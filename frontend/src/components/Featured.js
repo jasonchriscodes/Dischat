@@ -6,6 +6,7 @@ import bg1 from "../components/assets/bg01.jpg";
 import bg2 from "../components/assets/bg02.jpg";
 import bg3 from "../components/assets/bg03.jpg";
 import bg4 from "../components/assets/bg04.jpg";
+import { Link } from "react-router-dom";
 
 const Featured = () => {
   const cards = [
@@ -86,14 +87,16 @@ const Featured = () => {
       {/* Cards */}
       <div className="grid grid-cols-1 xs:grid-cols-2 lg:grid-cols-3 xs:gap-x-2 sm:gap-x-4 gap-y-8 mb-4">
         {cards.map((card) => (
-          <Card
-            bg={card.bg}
-            profile={card.profile}
-            title={card.title}
-            description={card.description}
-            size={card.size}
-            key={card.description}
-          />
+          <Link to="/card">
+            <Card
+              bg={card.bg}
+              profile={card.profile}
+              title={card.title}
+              description={card.description}
+              size={card.size}
+              key={card.description}
+            />
+          </Link>
         ))}
       </div>
     </div>

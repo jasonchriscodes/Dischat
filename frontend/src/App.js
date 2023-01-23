@@ -1,20 +1,16 @@
 import "./App.css";
-import Discover from "./components/Discover";
-import Groups from "./components/Groups";
-import MainComponent from "./components/MainComponent";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./Home";
+import CardPage from "./components/CardPage";
 
 function App() {
   return (
-    <div className="flex bg-[#363940] ">
-      {/* Friends + Groups */}
-      <Groups />
-      {/* Discover */}
-      <Discover />
-      {/* Main Content */}
-      <MainComponent />
-      {/* Hero */}
-      {/* Featured */}
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/card" element={<CardPage />} />
+      </Routes>
+    </Router>
   );
 }
 export default App;

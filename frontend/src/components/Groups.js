@@ -6,6 +6,7 @@ import img4 from "../components/assets/img4.png";
 import dc from "../components/assets/dc.png";
 import { FiPlus } from "react-icons/fi";
 import { AiFillCompass } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 const Groups = () => {
   const groups = [img1, img2, img3, img4, img1];
@@ -13,13 +14,16 @@ const Groups = () => {
     <div className="hidden sm:flex bg-[#212226] w-[6rem] shrink-0 h-screen sticky top-0 pt-6">
       <div className="flex flex-col items-center w-full space-y-4">
         {/* Discord */}
-        <div className="bg-[#36393f] p-1 rounded-[1.3rem] cursor-pointer">
-          <img
-            src={dc}
-            className="w-12 h-12 rounded-full text-white brightness-[80%]"
-            alt="group-logo"
-          />
-        </div>
+        <Link to="/">
+          <div className="bg-[#36393f] p-1 rounded-[1.3rem] cursor-pointer">
+            <img
+              src={dc}
+              className="w-12 h-12 rounded-full text-white brightness-[80%]"
+              alt="group-logo"
+            />
+          </div>
+        </Link>
+
         {/* Compass */}
         <div className="bg-[#7289dc] p-3 rounded-[1.3rem] cursor-pointer">
           <AiFillCompass
